@@ -61,7 +61,8 @@ dpkg -l | grep cuda
 - [Support Matrix — NVIDIA cuDNN](https://docs.nvidia.com/deeplearning/cudnn/latest/reference/support-matrix.html)
 
 특히 **최신 드라이버는 최신 커널을 요구**하는 경우가 많으므로, 커널 호환 여부를 먼저 점검하세요 (아래 7번 항목 참고).
-**주의**: 호환되지 않는 커널의 NVIDIA 드라이버를 설치를 시도하면 드라이버 설치 과정에서 커널을 자동으로 업데이트 하도록 시도합니다. 이때 높은 확률로 커널이 꺠지고 서버가 부팅 되지 않을 수 있으니 반드시 원하는 NVIDIA 드라이버에 맞는 커널 버전(ubuntu-drivers devices 명령어로 조회 가능)을 먼저 확인해주세요. 커널 업데이트가 필요한 경우 **## 7. 커널 업데이트 (HWE 커널)**을 먼저 참고해주세요. 
+> 호환되지 않는 커널의 NVIDIA 드라이버를 설치를 시도하면 드라이버 설치 과정에서 커널을 자동으로 업데이트 하도록 시도합니다. 이때 높은 확률로 커널이 꺠지고 서버가 부팅 되지 않을 수 있으니 반드시 원하는 NVIDIA 드라이버에 맞는 커널 버전(ubuntu-drivers devices 명령어로 조회 가능)을 먼저 확인해주세요. 커널 업데이트가 필요한 경우 `7. 커널 업데이트 (HWE 커널)`을 먼저 참고해주세요. 
+{: .prompt-warning }
 
 
 ## 4. NVIDIA 드라이버 설치
@@ -83,7 +84,9 @@ sudo ubuntu-drivers autoinstall
 
 특정 버전을 지정하여 설치하는 방법도 있으나, 제 경우에는 버전을 지정해서 설치하면 드라이버가 정상적으로 설치되지 않았습니다.
 
-**주의**: 드라이버 설치 완료 후 reboot까지 해야 드라이버가 정상적으로 동작합니다.
+> 드라이버 설치 완료 후 reboot까지 해야 드라이버가 정상적으로 동작합니다.
+{: .prompt-warning }
+
 ```shell
 sudo reboot
 ```
