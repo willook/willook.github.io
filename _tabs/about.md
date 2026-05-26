@@ -14,7 +14,7 @@ order: 4
   - 동물 행동 실험 분석 ML SaaS 'Actverse'의 ML 백엔드를 설계·구축·운영
   - R&D, 백엔드 주도 · 사용자 데이터 실시간 학습(특허 연계) · ML 플랫폼(Triton/TensorRT/MLflow) · GPU 온프레미스 서버 인프라 구축 등
   - v1(Celery) → v2(Temporal) 아키텍처 마이그레이션
-- **2021.03 ~ 2023.08** · **KAIST 전산학부 석사 (GPA 3.9/4.3)**
+- **2021.03 ~ 2023.08** · **KAIST 전산학부 석사** (GPA 3.9/4.3)
   - 연구 분야: Action recognition · Multimodal · Few-shot learning · Computer Vision
 - **2015.03 ~ 2021.02** · **충남대학교 컴퓨터공학과 학사** (수석 졸업, 137명 중 1위, GPA 4.45/4.5)
 
