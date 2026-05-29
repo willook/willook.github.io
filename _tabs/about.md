@@ -6,7 +6,7 @@ order: 4
 
 **이종화 (Jonghwa Lee)** — Machine Learning Engineer
 
-동물 행동 실험 분석 SaaS [Actverse](https://actnova.io)의 ML 백엔드를 설계·구축·운영한 엔지니어입니다. 영상 분석 파이프라인부터 ML 서빙 최적화, 워크플로 오케스트레이션까지 백엔드 전반을 다룹니다.
+동물 행동 실험 분석 SaaS [Actverse](https://actnova.io)의 ML 백엔드 설계·구축·운영. 영상 분석 파이프라인부터 ML 서빙 최적화, 워크플로 오케스트레이션까지 백엔드 전반을 다룹니다.
 
 ## 경력 · 학력
 
