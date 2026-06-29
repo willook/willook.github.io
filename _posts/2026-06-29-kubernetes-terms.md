@@ -24,7 +24,7 @@ tags: [kubernetes, k8s, kubectl, helm, ingress, glossary]
 서버 여러 대를 하나의 자원 풀처럼 보는 것
 ```
 
-예를 들어 `jindo`, `worker-1`, `worker-2` 서버가 하나의 Kubernetes cluster에 묶이면, 사용자는 각 서버에 직접 들어가 앱을 띄우기보다 cluster에 "이 앱을 띄워줘"라고 요청한다.
+예를 들어 `control-plane-1`, `worker-1`, `worker-2` 서버가 하나의 Kubernetes cluster에 묶이면, 사용자는 각 서버에 직접 들어가 앱을 띄우기보다 cluster에 "이 앱을 띄워줘"라고 요청한다.
 
 ## Node
 
@@ -51,7 +51,7 @@ Control plane은 cluster 전체 상태를 보고, 어떤 Pod를 어느 Node에 �
 - cluster 상태 관리
 - 원하는 상태와 실제 상태 조정
 
-작은 k3s cluster에서는 `jindo` 한 대가 control plane이자 worker node 역할을 동시에 할 수 있다.
+작은 k3s cluster에서는 서버 한 대가 control plane이자 worker node 역할을 동시에 할 수 있다.
 
 ## Worker Node
 

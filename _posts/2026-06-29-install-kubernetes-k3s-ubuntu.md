@@ -20,7 +20,7 @@ tags: [kubernetes, k3s, ubuntu, kubectl, ingress, traefik]
 - Deployment 롤링 업데이트와 롤백 맛보기
 - 실습 리소스 삭제와 k3s 제거 방법 확인
 
-이번 문서에서는 Helm, Argo CD, Rancher는 설치하지 않는다. 이 셋은 k3s 기본 감각을 잡은 뒤 다음 실습에서 다룬다.
+이번 문서에서는 Helm, Argo CD, Rancher는 설치하지 않고, k3s 기본 흐름만 다룬다.
 
 ## 큰 그림
 
@@ -915,14 +915,3 @@ kubectl describe pod <pod-name> -n <namespace>
 - Ingress는 Service와 무엇이 다른가?
 - 서버마다 직접 컨테이너를 업데이트하지 않고 Deployment를 업데이트한다는 것이 무슨 뜻인가?
 - 롤링 업데이트와 롤백은 어떤 문제를 줄여주는가?
-
-## 다음 실습 후보
-
-이번 실습 이후에는 다음 순서가 좋다.
-
-1. Helm으로 앱 설치하기
-2. k3s에 Grafana/Prometheus를 Helm으로 설치해보기
-3. FastAPI 모델 서버를 Kubernetes에 배포하기
-4. Qdrant 또는 PostgreSQL + pgvector를 붙여 RAG API 배포하기
-5. Argo CD로 GitOps 배포 흐름 만들기
-6. Rancher로 클러스터 UI 관리 경험하기

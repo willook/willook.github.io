@@ -265,17 +265,6 @@ Kubernetes에서는 보통 클러스터 자체는 온프레미스에 두고, 관
 - Amazon EKS Anywhere
 - Rancher Manager
 
-개인 학습용으로는 이런 흐름이 좋아 보인다.
-
-```text
-1. jindo 서버에 k3s 설치
-2. kubectl, Helm, Ingress, PVC, Secret 익히기
-3. 간단한 FastAPI 모델 서버 배포
-4. RAG API와 vector DB 배포
-5. Argo CD나 Flux로 GitOps 연결
-6. 필요하면 Rancher나 Azure Arc 같은 관리 도구 경험
-```
-
 ## 현재 이해 정리
 
 Docker는 앱을 컨테이너로 포장하고 실행하는 도구다.
