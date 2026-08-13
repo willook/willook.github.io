@@ -1,6 +1,6 @@
 ---
-title: "쿠버네티스란 무엇일까? Docker와 Kubernetes의 차이"
-description: "Docker, Docker Compose, Kubernetes, k3s의 차이를 처음 공부하는 관점에서 정리합니다."
+title: "쿠버네티스란 무엇일까? Docker와 Kubernetes"
+description: "Docker, Docker Compose, Kubernetes, k3s의 차이를 정리했습니다."
 date: 2026-06-29 09:00:00 +0900
 categories: [Infra, Kubernetes]
 tags: [kubernetes, docker, container, k8s, k3s]

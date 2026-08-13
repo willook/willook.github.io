@@ -1,6 +1,6 @@
 ---
-title: "내 컴퓨터에 쿠버네티스 설치해보기: Ubuntu와 k3s"
-description: "Ubuntu 서버에 k3s를 설치하고 kubectl, Deployment, Service, Ingress, 롤링 업데이트를 실습합니다."
+title: "쿠버네티스 설치해보기: Ubuntu와 k3s"
+description: "Ubuntu 서버에 k3s를 설치하고 kubectl, Deployment, Service, Ingress, 롤링 업데이트를 진행합니다."
 date: 2026-06-29 09:20:00 +0900
 categories: [Infra, Kubernetes]
 tags: [kubernetes, k3s, ubuntu, kubectl, ingress, traefik]

@@ -1,6 +1,6 @@
 ---
 title: "쿠버네티스 용어 정리"
-description: "Kubernetes를 공부하면서 자주 만나는 핵심 용어를 Docker와 온프레미스 경험에 빗대어 정리합니다."
+description: "Kubernetes를 공부하면서 자주 만나는 핵심 용어를 Docker와 온프레미스와 비교하여 정리했습니다."
 date: 2026-06-29 09:10:00 +0900
 categories: [Infra, Kubernetes]
 tags: [kubernetes, k8s, kubectl, helm, ingress, glossary]
